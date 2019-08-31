@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    Counter :{{count}}
+    Count → {{count}}
     <br />
-    Getter:{{plus10}}
+    Getter(plus 10) → {{plus10}}
     <br />
     <button @click="incrementCount">increment</button>
     <button @click="reset">reset</button>
